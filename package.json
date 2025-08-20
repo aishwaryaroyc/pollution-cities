@@ -1,0 +1,26 @@
+{
+  "name": "pollu-cities-min",
+  "version": "1.0.0",
+  "description": "Minimal backend: /cities aggregates mock /pollution (token auth) + Wikipedia blurb. Straightforward, readable code.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
